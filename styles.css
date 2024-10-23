@@ -27,7 +27,9 @@ li {
 }
 
 .hone li:hover{
-    color: #393EBB;
+    color: #444791;
+    text-shadow: 0 0 10px #393EBB;
+    font-weight: 700;
 }
 
 .htwo li:hover{
@@ -38,5 +40,27 @@ li {
 
 .hthree li:hover {
     background-color: rgba(12, 14, 86, 0.5);
-    box-shadow: 2px 2px 5px #D1FFFF;
+    text-shadow: 0 0 5px #D1FFFF;
+    box-shadow: 0 0 5px #444791;
+}
+
+.buttons-container {
+    display: flex;
+    height: 50px;
+    border: 1px solid white;
+}
+
+.buttons-container a {
+    width: max-content;
+    height: max-content;
+    margin: 0;
+    margin: auto 20px;
+}
+
+.buttons-container p {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    height: 50%;
+    width: max-content;
 }
