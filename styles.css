@@ -55,12 +55,27 @@ li {
     height: max-content;
     margin: 0;
     margin: auto 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #D1FFFF;
 }
 
 .buttons-container p {
-    margin: 0;
+    padding: 5px 10px;
     font-size: 1.2rem;
     font-weight: 600;
     height: 50%;
     width: max-content;
+    margin: 0;
+}
+
+.a1:hover {
+    color:#D1FFFF;
+    background-color: #393EBB;
+}
+
+.a2:hover {
+    background-color: #30303C;
+    box-shadow: 0px 0px 5px #FFFFFF;
+    color:#D1FFFF;
 }
