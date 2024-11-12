@@ -47,7 +47,6 @@ li {
 .buttons-container {
     display: flex;
     height: 50px;
-    border: 1px solid white;
 }
 
 .buttons-container a {
@@ -90,4 +89,26 @@ li {
 
 .a4:hover{
     filter: none;
+}
+
+.cards-container{
+    width: 60%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    gap: 5%;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.card{
+    height: 100px;
+    width: 30%;
+    background-color: #393EBB;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 5px;
+    color:#D1FFFF
 }
