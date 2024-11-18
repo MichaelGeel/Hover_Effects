@@ -101,6 +101,7 @@ li {
     gap: 5%;
     justify-content: space-evenly;
     margin-top: 50px;
+    position: relative;
 }
 
 .card{
@@ -110,5 +111,35 @@ li {
     text-align: center;
     padding-top: 20px;
     border-radius: 5px;
-    color:#D1FFFF
+    color:#D1FFFF;
+    position: relative;
+}
+
+.card::after{
+    padding-top: 20px;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: #D1FFFF;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    z-index: -1;
+    color: #393EBB;
+}
+
+.item1::after{
+    content: "Notice how this card slid downward?";
+}
+
+.item3::after{
+    content: "Notice how this card slid left?";
+}
+
+.item4::after{
+    content: "Notice how this card slid right?";
+}
+
+.item5::after{
+    content: "Notice how this card slid up?";
 }
