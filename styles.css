@@ -113,6 +113,7 @@ li {
     border-radius: 5px;
     color:#D1FFFF;
     position: relative;
+    transition: 1s;
 }
 
 .card::after{
@@ -126,6 +127,7 @@ li {
     border-radius: 5px;
     z-index: -1;
     color: #393EBB;
+    transition: 1s;
 }
 
 .item1::after{
@@ -143,3 +145,17 @@ li {
 .item5::after{
     content: "Notice how this card slid up?";
 }
+
+.item1:hover {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.item1:hover::after {
+    top: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+
